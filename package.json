@@ -1,0 +1,25 @@
+{
+  "name": "thesiq",
+  "version": "1.0.0",
+  "description": "ThesIQ - Zakariye Abdi Reference Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "chai": "^4.3.0",
+    "hardhat": "^2.20.0",
+    "mocha": "^10.0.0",
+    "typescript": "^5.0.0"
+  }
+}
